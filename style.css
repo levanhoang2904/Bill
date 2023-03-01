@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html 
+{
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    width: 450px;
+    border-radius: 3px;
+
+    position: relative;
+}
+
+.header {
+    background-color: red;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+}
+
+
+
+.order {
+    background-color: white;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.order h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.list__food {
+    list-style: none;
+    margin: 30px 10px 10px 10px;
+}
+
+.list__food li {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name__food {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.list__food button {
+    padding: 10px 10px;
+    line-height: 1px;
+    font-size: 10px;
+}
+
+.button__add-food {
+    padding: 20px 50px;
+}
+
+.price {
+    margin-right: 10px;
+}
+
+.amount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button__desc {
+}
+
+
+.total {
+    background-color: #ccc;
+    list-style: none;
+    margin: 30px 0;
+     border-radius: 5px;
+}
+
+.total li {
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button__checkout {
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 10px;
+   background-color: red;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   text-transform: uppercase;
+ 
+}
+
+
+.model__add-food {
+   background-color: red;
+   position: absolute;
+   width: 80%;
+   text-align: center;
+   height: 150px;
+   top: 50%;
+   left: 50px;
+   border-radius: 5px;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+   display: none;
+}
+
+.model__add-food input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+.add button{
+    margin-top: 20px;
+    padding: 10px 20px;
+}
